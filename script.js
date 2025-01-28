@@ -19,6 +19,7 @@ window.addEventListener("DOMContentLoaded", e => {
         const blob = URL.createObjectURL(file)
         const image = document.createElement("img")
         image.src = blob
+        document.querySelector(".pic-container").style = "display: initial"
         document.querySelector(".pic-container").innerHTML = ""
         document.querySelector(".pic-container").append(image)
     })

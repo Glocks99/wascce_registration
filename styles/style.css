@@ -140,116 +140,128 @@ nav.active .menu{
 }
 
 .form-group input,
-        .form-group select {
-            width: 100%;
-            padding: 10px;
-            font-size: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-        .form-group input[type="file"] {
-            padding: 5px;
-        }
+.form-group input[type="file"] {
+    padding: 5px;
+}
 
-        .btn {
-            width: 100%;
-            background: #ffcc00;
-            color: #003366;
-            padding: 12px;
-            font-size: 1.2rem;
-            font-weight: bold;
-            text-align: center;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: 0.3s ease-in-out;
-        }
+.btn {
+    width: 100%;
+    background: #ffcc00;
+    color: #003366;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
 
-        .btn:hover {
-            background: #ffdd44;
-        }
+.btn:hover {
+    background: #ffdd44;
+}
 
-         /* About Section */
-         .about-section {
-            width: 100%;
-            padding: 60px 20px;
-            background: white;
-            text-align: center;
-        }
+    /* About Section */
+    .about-section {
+    width: 100%;
+    padding: 60px 20px;
+    background: white;
+    text-align: center;
+}
 
-        .about-section h2 {
-            font-size: 2rem;
-            color: #003366;
-            margin-bottom: 15px;
-        }
+.about-section h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 15px;
+}
 
-        .about-section p {
-            font-size: 1.2rem;
-            color: #333;
-            max-width: 800px;
-            margin: auto;
-            line-height: 1.6;
-        }
+.about-section p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+}
 
-        /* Contact Section */
-        .contact-section {
-            width: 100%;
-            padding: 60px 20px;
-            background: #eaf2ff;
-            text-align: center;
-        }
+/* Contact Section */
+.contact-section {
+    width: 100%;
+    padding: 60px 20px;
+    background: #eaf2ff;
+    text-align: center;
+}
 
-        .contact-section h2 {
-            font-size: 2rem;
-            color: #003366;
-            margin-bottom: 15px;
-        }
+.contact-section h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin-bottom: 15px;
+}
 
-        .contact-container {
-            max-width: 500px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-        }
+.contact-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-        .form-group input,
-        .form-group textarea {
-            width: 100%;
-            padding: 10px;
-            font-size: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-        .form-group textarea {
-            height: 120px;
-            resize: none;
-        }
+.form-group textarea {
+    height: 120px;
+    resize: none;
+}
 
-        /* Footer */
-        .footer {
-            width: 100%;
-            background: #003366;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
+.pic-container {
+    display: none;
+    width: 100%;
+    height: 200px;
+}
 
-        .footer p {
-            margin: 5px 0;
-            font-size: 1rem;
-        }
+.pic-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
-        .footer a {
-            color: #ffcc00;
-            text-decoration: none;
-            margin: 0 10px;
-        }
+/* Footer */
+.footer {
+    width: 100%;
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
 
-        .footer a:hover {
-            text-decoration: underline;
-        }
+.footer p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
