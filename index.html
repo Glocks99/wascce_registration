@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Register wassce</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav>
+      <h3>Destiny IT College</h3>
+
+      <div class="menu">
+        <div class="close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="#abt">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <footer class="footer">
+          <p>&copy; 2025 Destiny IT College. All Rights Reserved.</p>
+          <p>
+            Contact:
+            <a href="mailto:info@wassce.com">info@DestinyITCollege.com</a> |
+            Phone: +233 0202580359
+          </p>
+          <p>
+            Follow us on
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+          </p>
+        </footer>
+      </div>
+
+      <i class="fa-solid fa-bars bar"></i>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Register for WASSCE 2025 Now!</h1>
+        <p>
+          Secure your future by registering for the West African Senior School
+          Certificate Examination. Don't miss the deadline—apply today!
+        </p>
+        <a href="#register" class="btn">Start Registration</a>
+      </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="form-section" id="register">
+      <div class="form-container">
+        <h2>WASSCE Registration</h2>
+        <form
+          action="https://formspree.io/f/mzzdrdnl"
+          method="POST"
+          enctype="multipart/form-data"
+        >
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+
+          <div class="form-group">
+            <label for="school">School Name</label>
+            <input type="text" id="school" name="school" required />
+          </div>
+
+          <div class="form-group">
+            <label for="Parents">Parents Name(either one)</label>
+            <input type="text" id="parents" name="parents" required />
+          </div>
+
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address" required />
+          </div>
+
+          <div class="form-group">
+            <label for="exam">Exam Type</label>
+            <select id="exam" name="exam" required>
+              <option value="" disabled selected>Select Exam Type</option>
+              <option value="private">Private Candidate</option>
+              <option value="school">School Candidate</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="photo">Upload Passport Photo</label>
+            <input
+              type="file"
+              id="photo"
+              name="photo"
+              accept="image/*"
+              required
+            />
+          </div>
+
+          <div class="pic-container"></div>
+
+          <button type="submit" class="btn">Submit Registration</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="abt">
+      <h2>About WASSCE Registration</h2>
+      <p>
+        The West African Senior School Certificate Examination (WASSCE) is a
+        crucial step for students in West Africa. Our platform simplifies the
+        registration process, ensuring students can apply seamlessly and focus
+        on preparing for their exams.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <form action="https://formspree.io/f/mzzdrdnl" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Destiny IT College. All Rights Reserved.</p>
+      <p>
+        Contact:
+        <a href="mailto:info@DestinyITCollege">info@DestinyITCollege.com</a> |
+        Phone: +233 0202580359
+      </p>
+      <p>
+        Follow us on
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+        <a href="#">Instagram</a>
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
